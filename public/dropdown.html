@@ -5,7 +5,7 @@
         <ui-select-match placeholder="Select value">{{$select.selected}}
         </ui-select-match>
         <ui-select-choices repeat="item in dropdownValues | filter: $select.search">
-          <div ng-bind-html="item.key | highlight: $select.search"></div> <div><em>({{item.doc_count}} hits)</em></div>
+          <div ng-bind-html="item.key | highlight: $select.search"></div>
         </ui-select-choices>
       </ui-select> 
   </form>
