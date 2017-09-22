@@ -1,7 +1,7 @@
 {
   "name": "kibana_dropdown",
   "version": "5.6.1",
-  "description": "Dropdown select widget for Kibana dashboards",
+  "description": "Dropdown selection input control for Kibana",
   "main": "index.js",
   "kibana": {
     "version": "5.6.1"

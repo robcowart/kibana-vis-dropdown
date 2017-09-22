@@ -15,7 +15,7 @@ define(function (require) {
       name: 'dropdownpicker',
       title: 'Dropdown Picker',
       icon: 'fa-caret-square-o-down',
-      description: 'In-dashboard dropdown filter widget',
+      description: 'Set filters via a dropdown selector',
       template: require('plugins/kibana_dropdown/dropdown.html'),
       params: {
         editor: require('plugins/kibana_dropdown/dropdownOptions.html')
